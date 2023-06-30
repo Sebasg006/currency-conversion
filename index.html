@@ -1,0 +1,30 @@
+<html>
+<title>Converter for money</title>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h1 class="title">CONVERTER</h1>
+    <div id="caja">
+        <p>
+            <p class="text10">peso</p>
+            <input id="inputpesos" placeholder="pesos" class="cuadro">
+        </p>
+        <p>
+            <p class="text10">dolar</p>
+            <input id="inputDolares" placeholder="Dolares" class="cuadro">
+        </p>
+        <p>
+            <p class="text10">libra esterlina</p>
+            <input id="inputlibra" placeholder="libra" class="cuadro">
+        </p>
+        <div class="boton2">
+        <input type="button" onclick="convertUsd()" value="convert USD" class="boton4">
+        <input type="button" onclick="convertPesos()" value="convert COP" class="boton3"> 
+        <input type="button" onclick="coinConvert3()" value="convert GBP"  class="boton1"> 
+        <input type="reset" onclick="limpiar()" value="reset" class="reset">
+        </div>
+    </div>
+    </div>
+</body>
+<script src="indes.js"></script>
+</html>
